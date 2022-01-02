@@ -1,0 +1,21 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sass.format.enabled": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.sass": "sass-formatter",
+  "vetur.format.defaultFormatter.ts": "prettier"
+}
