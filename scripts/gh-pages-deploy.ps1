@@ -10,5 +10,4 @@ npm run build
 git --work-tree dist add --all
 git --work-tree dist commit -m $CommitMessage
 Write-Host "Pushing to gh-pages"
-git push origin HEAD:gh-pages
-
+git push origin HEAD:gh-pages --force
