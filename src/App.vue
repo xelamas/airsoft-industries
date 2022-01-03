@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="content-area">      
+    <div class="content-area">
       <router-view />
     </div>
   </div>
@@ -10,7 +10,7 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;    
+  text-align: center;
 }
 
 .content-area {

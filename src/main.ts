@@ -3,9 +3,12 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "@/assets/scss/main.scss";
-import Buefy from 'buefy'
+import Buefy from "buefy";
+import VueRecaptcha from "vue-recaptcha";
 
-Vue.use(Buefy)
+Vue.use(Buefy);
+
+Vue.component("VueRecaptcha", VueRecaptcha);
 
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";

@@ -12,5 +12,8 @@ $colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light
   font-family: "Roboto", sans-serif !important;
 }
 
+$input-color: $white;
+$input-background-color: $dark;
+
 @import "~bulma/sass/utilities/initial-variables.sass";
 @import "~bulma/sass/utilities/derived-variables.sass";
