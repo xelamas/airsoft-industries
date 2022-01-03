@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1 class="title"><span class="is-primary">Airsoft</span> Industries.</h1>
-    <h2 class="subtitle">Site under construction.</h2>
+    <h1 class="title has-text-white has-text-weight-light is-size-2"><span class="has-text-primary">Airsoft</span> Industries.</h1>
+    <h2 class="subtitle has-text-white has-text-weight-light is-size-4">Site under construction.</h2>
   </div>
 </template>
 

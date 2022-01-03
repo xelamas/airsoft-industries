@@ -2,6 +2,13 @@ const CopyPlugin = require("copy-webpack-plugin");
 const path = require("path");
 
 module.exports = {
+  css: {
+    loaderOptions: {
+      scss: {
+        prependData: `@import "@/assets/scss/_variables.scss";`,
+      },
+    },
+  },
   configureWebpack: {
     plugins: [
       new CopyPlugin({
@@ -13,5 +20,5 @@ module.exports = {
         ],
       }),
     ],
-  },
+  },  
 };

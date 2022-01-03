@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <div class="content-area">      
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -8,6 +10,10 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: center;    
+}
+
+.content-area {
+  padding: calc(#{$spacer} * 2);
 }
 </style>

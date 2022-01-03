@@ -1,0 +1,16 @@
+@import "~bulma/sass/utilities/_all";
+
+$spacer: 12px;
+$column-gap: 12px;
+
+$primary: #47ad64;
+$primary-invert: findColorInvert($primary);
+
+$colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert));
+
+.has-font-roboto {
+  font-family: "Roboto", sans-serif !important;
+}
+
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/derived-variables.sass";
