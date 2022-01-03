@@ -11,5 +11,7 @@ jobs:
       - run: git checkout --orphan gh-pages
       - run: npm install
       - run: npm run build
+      - run: git config --global user.name 'Github' && git config --global user.email 'siada@users.noreply.github.com'
       - run: git --work-tree dist add --all
       - run: git --work-tree dist commit -m "Update Site"
+      - run: git push origin HEAD:gh-pages --force
