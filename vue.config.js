@@ -1,15 +1,17 @@
-import CopyPlugin from "copy-webpack-plugin";
-import { join } from "path";
+const CopyPlugin = require("copy-webpack-plugin");
+const path = require("path");
 
-export const configureWebpack = {
-  plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: join(__dirname, "CNAME"),
-          to: join(__dirname, "dist"),
-        },
-      ],
-    }),
-  ],
+module.exports = {
+  configureWebpack: {
+    plugins: [
+      new CopyPlugin({
+        patterns: [
+          {
+            from: path.join(__dirname, "CNAME"),
+            to: path.join(__dirname, "dist"),
+          },
+        ],
+      }),
+    ],
+  },
 };
